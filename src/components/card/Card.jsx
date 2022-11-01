@@ -20,7 +20,7 @@ export const Card = () => {
                 <p className='line-through text-[hsl(228,12%,48%)]'>$169.99</p>
             </div>
             
-            <button className='w-full bg-[hsl(158,36%,37%)] py-4 rounded-[0.625rem] text-white flex justify-center gap-2 items-center'> <img src="/public/icon-cart.svg" aria-hidden='true' alt /> Add to Cart</button>
+            <button className='w-full bg-[hsl(158,36%,37%)] py-4 rounded-[0.625rem] text-white flex justify-center gap-2 items-center'> <img src="../icon-cart.svg" aria-hidden='true' alt /> Add to Cart</button>
             
         </div>
     </div>
