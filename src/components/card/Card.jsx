@@ -2,8 +2,8 @@ export const Card = () => {
   return (
     <div className='w-[22rem]  bg-white h-[40rem] lg:h-[28rem] lg:w-max rounded-xl  font-montserrat flex flex-col overflow-hidden lg:flex-row'>
         
-        <img src="/public/image-product-mobile.jpg" className='lg:hidden' alt  />
-        <img src="/public/image-product-desktop.jpg" className='lg:block hidden' alt  />
+        <img src="../image-product-mobile.jpg" className='lg:hidden' alt  />
+        <img src="../image-product-desktop.jpg" className='lg:block hidden' alt  />
 
         <div className='px-5 flex flex-col justify-between h-full py-[1.4rem] lg:w-[20rem] lg:py-[2rem]'>
             
@@ -20,7 +20,7 @@ export const Card = () => {
                 <p className='line-through text-[hsl(228,12%,48%)]'>$169.99</p>
             </div>
             
-            <button className='w-full bg-[hsl(158,36%,37%)] py-4 rounded-[0.625rem] text-white flex justify-center gap-2 items-center'> <img src="/public/icon-cart.svg" aria-hidden='true' alt /> Add to Cart</button>
+            <button className='w-full bg-[hsl(158,36%,37%)] py-4 rounded-[0.625rem] text-white flex justify-center gap-2 items-center'> <img src="../icon-cart.svg" aria-hidden='true' alt /> Add to Cart</button>
             
         </div>
     </div>
